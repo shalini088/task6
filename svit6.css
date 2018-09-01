@@ -1,0 +1,56 @@
+.main{
+  display: flex;
+  width: 100%;
+  flex-direction:row;
+  flex-flow: row wrap;
+
+}
+.h1{
+  color: #c45e45;
+  background-color: pink;
+}
+.one,
+.two,
+.three
+{
+  width:100%;
+  border-radius: 5px;
+  border:5px solid #000;
+}
+@media (min.width:600px) {
+  .main{
+    width:600px;
+    margin: auto;
+  }
+  .one{
+    width: 30%;
+
+  }
+
+}
+.two{
+  width: 30%;
+
+}
+.three{
+  width: 30%;
+
+}@media (min.width:800px) {
+  .main{
+    width:800px;
+    margin: auto;
+  }
+  .one{
+    width: 30%;
+
+  }
+
+}
+.two{
+  width: 30%;
+
+}
+.three{
+  width: 30%;
+
+}
